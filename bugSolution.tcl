@@ -1,0 +1,1 @@
+proc goodproc {a b} {  if {[expr {$a == $b}]} {    return 1  }  return 0}puts [goodproc 1 1.0]
